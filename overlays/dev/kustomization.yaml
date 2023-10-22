@@ -32,7 +32,7 @@ patches:
       value: "512Mi"
     - op: replace
       path: /spec/template/spec/containers/0/resources/limits/cpu
-      value: "1024m"
+      value: "512m"
     - op: replace
       path: /spec/template/spec/containers/0/command/4
       value: Mycomplexpassword#6546
